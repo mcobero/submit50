@@ -1,0 +1,15 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    for (int p = 0; p < 1; p++)
+    {
+        for (int k = 0; k < 8; k++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
+
+}
